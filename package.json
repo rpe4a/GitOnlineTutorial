@@ -1,0 +1,38 @@
+{
+  "name": "gitonlinetutorial",
+  "version": "1.0.0",
+  "description": "This is the Hello World example from the git tutorial.",
+  "main": "index.js",
+  "dependencies": {
+    "css-mqpacker": "^6.0.2",
+    "normalize-scss": "^7.0.1",
+    "postcss-sorting": "^3.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.4.1",
+    "css-loader": "^0.28.11",
+    "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.9.0",
+    "optimize-css-assets-webpack-plugin": "^4.0.0",
+    "postcss-loader": "^2.1.4",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "dev": "webpack --watch --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpe4a/GitOnlineTutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpe4a/GitOnlineTutorial/issues"
+  },
+  "homepage": "https://github.com/rpe4a/GitOnlineTutorial#readme"
+}

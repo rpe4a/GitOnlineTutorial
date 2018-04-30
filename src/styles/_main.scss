@@ -1,0 +1,56 @@
+@import "../../node_modules/normalize-scss/sass/normalize/_import-now.scss";
+@import "../styles/_test.scss";
+
+.header {
+  background-color: aquamarine;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.example {
+  display: grid;
+  transition: all 0.5s;
+  user-select: none;
+  background: linear-gradient(to bottom, white, black);
+}
+
+@media (min-width: 100px) {
+  body {
+    color: black;
+  }
+}
+ 
+body {
+  color: yellow;
+}
+ 
+@media (min-width: 100px) {
+  body {
+    color: green;
+  }
+}
+ 
+@media (min-width: 100px) {
+  body {
+    color: red;
+  }
+}
+ 
+@media (max-width: 300px) {
+  body {
+    color: orange;
+  }
+}
+ 
+@media (min-width: 100px) {
+  body {
+    color: purple;
+  }
+}
