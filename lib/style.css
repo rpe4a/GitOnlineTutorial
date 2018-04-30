@@ -1,31 +1,29 @@
-h1 {
-  color: red;
+html {
+  font-size: 62.5%;
 }
 
-h2 {
-  color: green;
+body {
+  padding: 0rem 1rem;
 }
 
-h3 {
-  color: blue;
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: stretch;
+  min-height: 100vh;
+  flex-flow: column wrap;
 }
 
-div {
-  padding: 10px;
+.header {
+  background-color: cadetblue;
 }
 
-p {
-  padding: 10px;
+.main {
+  background-color: brown;
+  flex-grow: 1;
 }
 
-margin-all-10 {
-  margin: 10px;
-}
-
-margin-all-20 {
-  margin: 20px;
-}
-
-margin-all-30 {
-  margin: 30px;
+.footer {
+  background-color: darkgoldenrod;
 }
