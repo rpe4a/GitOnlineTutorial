@@ -1,0 +1,7 @@
+@import "./_constants";
+@import "./_mixins.scss";
+
+.header {
+    color: $Grey;
+    @include border-radius(1);
+}
